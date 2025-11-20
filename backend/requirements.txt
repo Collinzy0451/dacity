@@ -1,0 +1,7 @@
+Flask==2.3.2
+Flask-SQLAlchemy==3.0.3
+Flask-Cors==3.0.10
+python-dotenv==1.0.0
+Werkzeug==2.3.7
+psycopg2-binary==2.9.9 # or use sqlite (no driver) for local dev
+bcrypt==4.0.1
