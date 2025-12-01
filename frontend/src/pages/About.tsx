@@ -32,7 +32,7 @@ const About = () => {
     {
       name: "Robert Williams",
       role: "CEO & Founder",
-      description: "15+ years in construction management and real estate development."
+      description: "Years in construction management and real estate development."
     },
     {
       name: "Jennifer Davis",
@@ -51,13 +51,13 @@ const About = () => {
     },
   ];
 
-  const milestones = [
-    { year: "2008", event: "Lotsdacity Founded", description: "Started with a vision to transform construction" },
-    { year: "2012", event: "100 Projects Milestone", description: "Completed our 100th successful project" },
-    { year: "2015", event: "Real Estate Division", description: "Expanded into property sales and rentals" },
-    { year: "2018", event: "Modular Innovation", description: "Pioneered modular building solutions" },
-    { year: "2023", event: "500+ Projects", description: "Serving over 1,200 satisfied clients" },
-  ];
+  // const milestones = [
+  //   { year: "2008", event: "Lotsdacity Founded", description: "Started with a vision to transform construction" },
+  //   { year: "2012", event: "100 Projects Milestone", description: "Completed our 100th successful project" },
+  //   { year: "2015", event: "Real Estate Division", description: "Expanded into property sales and rentals" },
+  //   { year: "2018", event: "Modular Innovation", description: "Pioneered modular building solutions" },
+  //   { year: "2023", event: "500+ Projects", description: "Serving over 1,200 satisfied clients" },
+  // ];
 
   return (
     <div className="min-h-screen">
@@ -87,7 +87,7 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
             <div className="space-y-4 text-muted-foreground">
               <p className="text-lg">
-                Founded in 2008, Lotsdacity began with a simple mission: to deliver exceptional construction services while maintaining the highest standards of quality and integrity.
+                Lotsdacity began with a simple mission: to deliver exceptional construction services while maintaining the highest standards of quality and integrity.
               </p>
               <p>
                 Over the years, we've grown from a small construction firm to a comprehensive construction and real estate company, serving hundreds of satisfied clients across residential, commercial, and industrial sectors.
@@ -106,7 +106,7 @@ const About = () => {
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
                   <Building2 className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle className="text-4xl font-bold">500+</CardTitle>
+                <CardTitle className="text-4xl font-bold">50+</CardTitle>
                 <CardDescription>Projects Completed</CardDescription>
               </CardHeader>
             </Card>
@@ -115,7 +115,7 @@ const About = () => {
                 <div className="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center mb-4">
                   <Users className="h-6 w-6 text-secondary" />
                 </div>
-                <CardTitle className="text-4xl font-bold">1,200+</CardTitle>
+                <CardTitle className="text-4xl font-bold">30+</CardTitle>
                 <CardDescription>Happy Clients</CardDescription>
               </CardHeader>
             </Card>
@@ -124,7 +124,7 @@ const About = () => {
                 <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
                   <Award className="h-6 w-6 text-accent" />
                 </div>
-                <CardTitle className="text-4xl font-bold">15+</CardTitle>
+                <CardTitle className="text-4xl font-bold">5+</CardTitle>
                 <CardDescription>Years Experience</CardDescription>
               </CardHeader>
             </Card>
@@ -197,7 +197,7 @@ const About = () => {
       </section>
 
       {/* Timeline */}
-      <section className="py-20 bg-muted/50">
+      {/* <section className="py-20 bg-muted/50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Journey</h2>
@@ -228,7 +228,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-primary text-white">
